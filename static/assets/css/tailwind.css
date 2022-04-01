@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+}
+
+.btn {
+  @apply px-2 lg:px-4 py-1 rounded-md hover:scale-105 transform-gpu transition-all;
+}
+
+.skillbar {
+  @apply px-3 py-1 border border-black rounded-md;
+}
+
+.text-stroke {
+  text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+a.active{
+  @apply px-2 rounded-md font-medium transition-all;
+}
+
+.bg-sidebar-black a.active{
+  @apply bg-yellow-300 text-black;
+}
+
+.bg-sidebar-yellow a.active{
+  @apply bg-black text-white;
+}
+
+.bg-sidebar-yellow{
+  @apply bg-yellow-300 text-black;
+}
+
+.bg-sidebar-black{
+  @apply bg-black text-white;
+}
+
+.social-media a, .list-link a{
+  @apply hover:scale-110 transform-gpu transition-all;
+}
