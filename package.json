@@ -8,6 +8,9 @@
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
+  "engines": {
+    "node": "16.14.1"
+  },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
