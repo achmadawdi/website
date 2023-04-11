@@ -7,9 +7,9 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
-  },
+  },  
   "engines": {
-    "node": "16.14.1"
+    "node": ">=16.2.0 <17"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
