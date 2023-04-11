@@ -10,13 +10,12 @@
           <h1 class="text-5xl lg:text-6xl font-bold max-w-lg">
             Hello, I'm Achmad Awdi Z
           </h1>
-          <p class="text-xl lg:text-2xl font-normal">
-            I am a web developer as well as a beginner ui/ux designer, I am very
-            interested in developing an application.
+          <p class="text-lg lg:text-xl font-normal">
+            I am a <b>Web Dev</b> and <b>Minecraft Bedrock Dev</b> with a keen interest in application development. I am excited to leverage my skills and experience to develop innovative applications.
           </p>
           <div class="flex gap-x-4 text-lg lg:text-xl">
             <a href="#works"><button class="btn bg-black text-white">My works</button></a>
-            <button class="btn border-black border">More about me</button>
+            <a href="https://www.linkedin.com/in/achmad-awdi-033aa51a0/" target="_blank" class="btn border-black border">More about me</a>
           </div>
           <hr class="border-black" />
           <div

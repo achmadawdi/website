@@ -9,7 +9,7 @@ document.onreadystatechange = function () {
 
       sections.forEach((section) => {
         const sectionTop = section.offsetTop;
-        if (pageYOffset >= sectionTop - 500) {
+        if (pageYOffset >= sectionTop - 550) {
           current = section.getAttribute("id");
         }
       });
