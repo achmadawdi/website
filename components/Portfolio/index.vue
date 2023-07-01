@@ -26,6 +26,17 @@ export default {
     return {
       portfolio: [
         {
+          title: "Multiverse Parkour",
+          description:
+            "A Multiverse Parkour map with 9 incredible dimensions that was released on Minecraft Bedrock Marketplace, and here I have a role as a Bedrock Developer in Hellocraft team.",
+          bgColor: "#a52ee5",
+          image: {
+            provider: "static",
+            src: "MultiverseParkour_Thumbnail_0.webp",
+          },
+          link: "https://www.minecraft.net/en-us/marketplace/pdp?id=0bdc69f2-d937-4be2-b33e-8c928d3128c2",
+        },
+        {
           title: "Cute Animals",
           description:
             "A racing map with cute characters that was released on Minecraft Bedrock Marketplace, and here I have a role as a Bedrock Developer in Hellocraft team.",
